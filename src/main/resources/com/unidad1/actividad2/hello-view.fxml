@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.unidad1.actividad2.HelloController">
+   <children>
+      <TextField fx:id="inptUser" layoutX="53.0" layoutY="78.0" prefHeight="25.0" prefWidth="374.0" promptText="Ingrese una palabra" />
+      <Label fx:id="lblContarVocales" layoutX="275.0" layoutY="160.0" text="Esperando ingreso de texto" />
+      <Label fx:id="lblMyM" layoutX="275.0" layoutY="211.0" maxWidth="-Infinity" text="Esperando ingreso de texto" wrapText="true" />
+      <Label fx:id="lblLargoPalabras" layoutX="275.0" layoutY="265.0" text="Esperando ingreso de texto" />
+      <Button fx:id="btnContarVocales" layoutX="53.0" layoutY="156.0" mnemonicParsing="false" onAction="#clicBtnContarValores" text="Contar vocales" />
+      <Button fx:id="btnMyM" layoutX="53.0" layoutY="207.0" mnemonicParsing="false" onAction="#clicBtnMyM" text="Mayuscular y Minusculas" />
+      <Button fx:id="btnLargoPalabras" layoutX="53.0" layoutY="261.0" mnemonicParsing="false" onAction="#clicBtnLargoPalabras" text="Largo de palabras" />
+      <Label layoutX="189.0" layoutY="31.0" text="JUEGO DE PALABRAS">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
